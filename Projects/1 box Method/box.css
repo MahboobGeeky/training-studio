@@ -1,0 +1,22 @@
+
+.main{
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid red;
+    margin: 30px;   
+}
+.content{
+    background-color: rgb(89, 140, 14);
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20p;
+    border: 8px solid black;
+
+}

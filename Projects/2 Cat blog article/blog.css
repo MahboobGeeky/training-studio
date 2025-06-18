@@ -1,0 +1,35 @@
+.navbar{
+    color: white;
+    background-color: rgb(144, 41, 217);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    font-size: x-large;
+
+
+}
+
+a:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(115, 231, 6, 0.83);
+}
+  
+.content{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 2ms;
+}

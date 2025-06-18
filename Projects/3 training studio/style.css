@@ -1,0 +1,21 @@
+body {
+    background-image: url("gym background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.navbar {
+    background-color: green;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; gap:20px;
+}
+
+.navcontent {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: flex-end; /* clearer than just 'end' */
+    align-items: center;
+    gap:200px;
+}
